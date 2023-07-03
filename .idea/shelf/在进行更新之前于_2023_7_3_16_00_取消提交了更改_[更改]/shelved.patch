@@ -1,0 +1,326 @@
+Index: src/day03/OperDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package day03;\r\n\r\npublic class OperDemo {\r\n    public static void main(String[] args) {\r\n        /*\r\n        int a=5,b=5;\r\n        int c=a--;\r\n        int d=--b;\r\n        System.out.println(a);//4\r\n        System.out.println(b);//4\r\n        System.out.println(c);//5\r\n        System.out.println(d);//4\r\n        */\r\n        /*\r\n        int a=5,b=6;\r\n        int c=a++;b++;\r\n        int d=++b;++a;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(d);\r\n\r\n        int a=6;\r\n        int b=9;\r\n        a++;\r\n        b--;\r\n        int c=b++;a--;\r\n        int d=++a;b--;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(d);\r\n\r\n\r\n\r\n\r\n        int a=5,b=6,c=5;\r\n        boolean a1=b<=c;\r\n        System.out.println(a1);\r\n        System.out.println(a++>c);\r\n        System.out.println(a);\r\n        System.out.println(a++>c);\r\n        System.out.println(a);\r\n        */\r\n        /*\r\n        int a=6,b=40,c=9;\r\n        boolean a1=b>c;\r\n        System.out.println(a1);\r\n        System.out.println(a*c>b);\r\n        System.out.println(a++>=b);//a=7\r\n        System.out.println(a--<c);//a=6\r\n        System.out.println(b<c++);//c=10\r\n        System.out.println(b++<=a*b);//b=41,a=6,c=10\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println();\r\n       */\r\n        /*\r\n        int age=25;\r\n        System.out.println(age>=18&&age<=50);\r\n        int score=90;\r\n        System.out.println(score>=0&&score<=100);\r\n        System.out.println(score>0||score<100);\r\n        System.out.println();\r\n        int a=5,b=10,c=5;\r\n        boolean a1=b>=a&&b<c;\r\n        System.out.println(a1);\r\n        System.out.println(b<=c&&b>a);\r\n        System.out.println(a==b&&c>b);\r\n        System.out.println(b!=c&&a<b);\r\n        System.out.println(b>=a||b<c);\r\n        System.out.println(b<=c||b>a);\r\n        System.out.println(b!=c||a<b);\r\n        System.out.println(a==b||c>b);\r\n        boolean b2=!(a>b);\r\n        System.out.println(b2);\r\n        System.out.println(!(a>b));\r\n\r\n\r\n         */\r\n        /*\r\n        int a=5,b=10,c=5;\r\n        boolean b1=a>b&&c++>2;\r\n        System.out.println(b1);\r\n        System.out.println(c);\r\n        boolean b2=a<b||c++>2;\r\n        System.out.println(b2);\r\n        System.out.println(c);\r\n\r\n\r\n         */\r\n    //赋值运算符\r\n        int a=5;\r\n        a+=10;\r\n        System.out.println(a);\r\n        a*=5;\r\n        System.out.println(a);\r\n        a/=5;\r\n        System.out.println(a);\r\n        short b=5;\r\n        //b=b+5;   //编译错误，需要强制转换。改为 b= (short) (b+5);\r\n        b= (short) (b+5);\r\n        System.out.println(b);\r\n        System.out.println(\"b=\"+b);\r\n\r\n        int age=23;\r\n        System.out.println(\"今年\"+age);\r\n        String name=\"刘承俊\";\r\n        System.out.println(\"大家好我叫\"+name);\r\n        System.out.println(\"我叫\"+name+\",今年\"+age+\"岁\");\r\n        System.out.println(\"--------------------------------------\");\r\n        System.out.println(10+20+\"\"+30);\r\n        System.out.println(\"\"+10+20+30);\r\n        System.out.println(10+20+30+\"\");\r\n        System.out.println(10+\"\"+20+30);\r\n        //字符串链接运算符\r\n\r\n        //条件运算符\r\n        //符号：boolean？数1：数2\r\n        int num=5;\r\n        int flag=num>0?a:b;\r\n        System.out.println(flag);\r\n\r\n        int a1=5,b1=10;\r\n        int max=a1<b1?a1:b1;\r\n        System.out.println(\"max=\"+max);\r\n\r\n\r\n\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/day03/OperDemo.java b/src/day03/OperDemo.java
+--- a/src/day03/OperDemo.java	(revision ddfb5a23b4352c8392c6e16d78963ab3c082f912)
++++ b/src/day03/OperDemo.java	(date 1688371253787)
+@@ -90,45 +90,43 @@
+ 
+ 
+          */
+-    //赋值运算符
+-        int a=5;
+-        a+=10;
++        //赋值运算符
++        int a = 5;
++        a += 10;
+         System.out.println(a);
+-        a*=5;
++        a *= 5;
+         System.out.println(a);
+-        a/=5;
++        a /= 5;
+         System.out.println(a);
+-        short b=5;
++        short b = 5;
+         //b=b+5;   //编译错误，需要强制转换。改为 b= (short) (b+5);
+-        b= (short) (b+5);
++        b = (short) (b + 5);
+         System.out.println(b);
+-        System.out.println("b="+b);
++        System.out.println("b=" + b);
+ 
+-        int age=23;
+-        System.out.println("今年"+age);
+-        String name="刘承俊";
+-        System.out.println("大家好我叫"+name);
+-        System.out.println("我叫"+name+",今年"+age+"岁");
++        int age = 23;
++        System.out.println("今年" + age);
++        String name = "刘承俊";
++        System.out.println("大家好我叫" + name);
++        System.out.println("我叫" + name + ",今年" + age + "岁");
+         System.out.println("--------------------------------------");
+-        System.out.println(10+20+""+30);
+-        System.out.println(""+10+20+30);
+-        System.out.println(10+20+30+"");
+-        System.out.println(10+""+20+30);
++        System.out.println(10 + 20 + "" + 30);
++        System.out.println("" + 10 + 20 + 30);
++        System.out.println(10 + 20 + 30 + "");
++        System.out.println(10 + "" + 20 + 30);
+         //字符串链接运算符
+ 
+         //条件运算符
+         //符号：boolean？数1：数2
+-        int num=5;
+-        int flag=num>0?a:b;
++        int num = 5;
++        int flag = num > 0 ? a : b;
+         System.out.println(flag);
+ 
+-        int a1=5,b1=10;
+-        int max=a1<b1?a1:b1;
+-        System.out.println("max="+max);
++        int a1 = 5, b1 = 10;
++        int max = a1 < b1 ? a1 : b1;
++        System.out.println("max=" + max);
+ 
+ 
+-
+-
+     }
+ 
+ }
+Index: src/day03/IfDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package day03;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class IfDemo {\r\n    public static void main(String[] args) {\r\n        Scanner scanner=new Scanner(System.in);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/day03/IfDemo.java b/src/day03/IfDemo.java
+--- a/src/day03/IfDemo.java	(revision ddfb5a23b4352c8392c6e16d78963ab3c082f912)
++++ b/src/day03/IfDemo.java	(date 1688371253797)
+@@ -1,9 +1,87 @@
+ package day03;
+ 
+-import java.util.Scanner;
+-
+ public class IfDemo {
+     public static void main(String[] args) {
+-        Scanner scanner=new Scanner(System.in);
+-    }
+-}
++
++               /* System.out.println("开始");
++                // 定义两个变量
++                int a = 10;
++                int b = 20;
++
++                if (a == b) {
++                    System.out.println("a等于b");
++                }else {
++                    System.out.println("a并不等于b");
++                }
++
++                int c = 10;
++                if (a == c) {
++                    System.out.println("a等于c");
++                }
++
++                System.out.println("结束");
++
++
++
++        int a=6;
++        if (a>4){
++            System.out.println("结果为真");
++        }
++        else {
++            System.out.println("结果为假");
++
++
++                // x和y的关系满足如下：
++                // x>=3 y = 2x + 1;
++                // -1<=x<3 y = 2x;
++                // x<=-1 y = 2x – 1;
++                // 根据给定的x的值，计算出y的值并输出。
++
++                // 定义变量
++                int x = 5;
++
++
++		int y;
++		if (x >= 3) {
++			y = 2 * x + 1;
++		} else if (x >= -1 && x < 3) {
++			y = 2 * x;
++		} else if (x <= -1) {
++			y = 2 * x - 1;
++		}else {
++			y = 0;
++		}
++
++
++                int y = 0;
++                if (x >= 3) {
++                    y = 2 * x + 1;
++                } else if (x >= -1 && x < 3) {
++                    y = 2 * x;
++                } else if (x <= -1) {
++                    y = 2 * x - 1;
++                }
++
++                System.out.println("y的值是："+y);
++            }
++        }
++        */
++        double price = 300.0;
++        if (price >= 500) {
++            price *= 0.8;
++        }
++        System.out.println("最终消费金额" + price);
++        int score = 100;
++        if (score >= 0 && score <= 100) {
++            System.out.println("成绩合法");
++
++        } else {
++            System.out.println("成绩不合法");
++        }
++        System.out.println("结束运行");
++
++    }
++}
++
++
++
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2dded3cb-cc7e-4ed6-84c4-f6ed21c63391\" name=\"更改\" comment=\"java\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"18df03e2-8ea7-4c89-8b03-8b4c90577077\" />\r\n        <option name=\"url\" value=\"https://github.com/qshenao/jsd2306.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ru2oOWwbL2FWwV1bh73DP90pkP\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"D:/java/jsd2306_teacher/jsd2306_teacher\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"SDK\",\r\n    \"project.structure.proportion\": \"0.107421875\",\r\n    \"project.structure.side.proportion\": \"0.26506025\",\r\n    \"settings.editor.selected.configurable\": \"settings.sync\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"mysql\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"应用程序.OperDemo\">\r\n    <configuration name=\"DateTypeDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day02.DateTypeDemo\" />\r\n      <module name=\"jsd2306\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day02.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"OperDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day03.OperDemo\" />\r\n      <module name=\"jsd2306\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day03.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"day021\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day02.day021\" />\r\n      <module name=\"jsd2306\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day02.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day02.test\" />\r\n      <module name=\"jsd2306\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day02.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"应用程序.OperDemo\" />\r\n        <item itemvalue=\"应用程序.test\" />\r\n        <item itemvalue=\"应用程序.DateTypeDemo\" />\r\n        <item itemvalue=\"应用程序.day021\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"2dded3cb-cc7e-4ed6-84c4-f6ed21c63391\" name=\"更改\" comment=\"\" />\r\n      <created>1688085821933</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1688085821933</updated>\r\n      <workItem from=\"1688085823076\" duration=\"4562000\" />\r\n      <workItem from=\"1688096513709\" duration=\"670000\" />\r\n      <workItem from=\"1688106068241\" duration=\"11829000\" />\r\n      <workItem from=\"1688127051821\" duration=\"21000\" />\r\n      <workItem from=\"1688343964916\" duration=\"7582000\" />\r\n      <workItem from=\"1688355213400\" duration=\"8003000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"java\">\r\n      <created>1688364675422</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688364675422</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"java\">\r\n      <created>1688368444178</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688368444178</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"java\">\r\n      <created>1688368565196</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688368565196</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"java\">\r\n      <created>1688369231835</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688369231835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"java\">\r\n      <created>1688369263081</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688369263081</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"java\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"java\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/day02/DateTypeDemo.java</url>\r\n          <line>84</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ddfb5a23b4352c8392c6e16d78963ab3c082f912)
++++ b/.idea/workspace.xml	(date 1688371017533)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="java" />
++    <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="java">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/day03/IfDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/IfDemo.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -27,11 +30,11 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="GithubPullRequestsUISettings">
+     <option name="selectedUrlAndAccountId">
+       <UrlAndAccount>
+@@ -49,37 +52,50 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "D:/java/jsd2306_teacher/jsd2306_teacher",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "SDK",
+-    "project.structure.proportion": "0.107421875",
+-    "project.structure.side.proportion": "0.26506025",
+-    "settings.editor.selected.configurable": "settings.sync",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/java/jsd2306_teacher/jsd2306_teacher&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.107421875&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.26506025&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+-  "keyToStringList": {
+-    "DatabaseDriversLRU": [
+-      "mysql"
++  &quot;keyToStringList&quot;: {
++    &quot;DatabaseDriversLRU&quot;: [
++      &quot;mysql&quot;
+     ]
+   }
+-}]]></component>
+-  <component name="RunManager" selected="应用程序.OperDemo">
++}</component>
++  <component name="RunManager" selected="应用程序.IfDemo">
+     <configuration name="DateTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="day02.DateTypeDemo" />
+       <module name="jsd2306" />
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="day02.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="IfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="day03.IfDemo" />
++      <module name="jsd2306" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="day03.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -128,6 +144,7 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="应用程序.IfDemo" />
+         <item itemvalue="应用程序.OperDemo" />
+         <item itemvalue="应用程序.test" />
+         <item itemvalue="应用程序.DateTypeDemo" />
+@@ -148,7 +165,8 @@
+       <workItem from="1688106068241" duration="11829000" />
+       <workItem from="1688127051821" duration="21000" />
+       <workItem from="1688343964916" duration="7582000" />
+-      <workItem from="1688355213400" duration="8003000" />
++      <workItem from="1688355213400" duration="9046000" />
++      <workItem from="1688370394218" duration="616000" />
+     </task>
+     <task id="LOCAL-00001" summary="java">
+       <created>1688364675422</created>
+@@ -185,7 +203,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1688369263081</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="java">
++      <created>1688369507332</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1688369507332</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
