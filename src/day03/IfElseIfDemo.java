@@ -15,15 +15,15 @@ public class IfElseIfDemo {
       System.out.println("最终消费金额："+price);
 
       double price1=450.02;
-      if (price>=2000){
-          price*=0.5;
+      if (price1>=2000){
+          price1*=0.5;
 
       } else if (price>=1000) {
-          price*=0.7;
+          price1*=0.7;
       } else if (price>=500) {
-          price*=0.8;
+          price1*=0.8;
       } else {
-          price*=0.9;
+          price1*=0.9;
 
       }
       System.out.println("最终消费金额："+price1);
