@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/day04/Guessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/WhileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/DoWhileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/Guessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/Guessing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.107421875",
     "project.structure.side.proportion": "0.26506025",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "settings.editor.selected.configurable": "project.propGUI",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -81,7 +81,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.Guessing">
+  <component name="RunManager" selected="应用程序.DoWhileDemo">
     <configuration name="CommandBySwitchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.CommandBySwitchDemo" />
       <module name="jsd2306" />
@@ -95,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Guessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.Guessing" />
+    <configuration name="DoWhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.DoWhileDemo" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.ScannerDemo" />
+    <configuration name="Guessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.Guessing" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.DoWhileDemo" />
         <item itemvalue="应用程序.Guessing" />
         <item itemvalue="应用程序.WhileDemo" />
         <item itemvalue="应用程序.CommandBySwitchDemo" />
         <item itemvalue="应用程序.SwitchDemo" />
-        <item itemvalue="应用程序.ScannerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,7 @@
       <workItem from="1688394411694" duration="390000" />
       <workItem from="1688430116562" duration="534000" />
       <workItem from="1688430663118" duration="1183000" />
-      <workItem from="1688431863642" duration="13955000" />
+      <workItem from="1688431863642" duration="17807000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -279,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688437486699</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1688452778821</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688452778821</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
