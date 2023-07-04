@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/day03/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/CommandBySwitchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/ScannerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/SwitchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f57b26be-8558-4bed-a199-dcf44ed9c3d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f57b26be-8558-4bed-a199-dcf44ed9c3d3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/Guessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/WhileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/Test01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +72,7 @@
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.107421875",
     "project.structure.side.proportion": "0.26506025",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -86,9 +81,22 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.CommandBySwitchDemo">
+  <component name="RunManager" selected="应用程序.Guessing">
     <configuration name="CommandBySwitchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.CommandBySwitchDemo" />
+      <module name="jsd2306" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Guessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.Guessing" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
@@ -126,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.Test01" />
+    <configuration name="WhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.WhileDemo" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03._1" />
-      <module name="jsd2306" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Guessing" />
+        <item itemvalue="应用程序.WhileDemo" />
         <item itemvalue="应用程序.CommandBySwitchDemo" />
         <item itemvalue="应用程序.SwitchDemo" />
         <item itemvalue="应用程序.ScannerDemo" />
-        <item itemvalue="应用程序.Test01" />
-        <item itemvalue="应用程序._1" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +177,7 @@
       <workItem from="1688394411694" duration="390000" />
       <workItem from="1688430116562" duration="534000" />
       <workItem from="1688430663118" duration="1183000" />
-      <workItem from="1688431863642" duration="5038000" />
+      <workItem from="1688431863642" duration="13955000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -276,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688386715933</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1688437486699</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688437486699</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +300,7 @@
     <MESSAGE value="java" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -305,6 +309,11 @@
           <url>file://$PROJECT_DIR$/src/day02/DateTypeDemo.java</url>
           <line>84</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day04/SwitchDemo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
