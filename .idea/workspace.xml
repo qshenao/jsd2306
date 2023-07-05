@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/day04/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/ForDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/ForDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/ForDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,10 @@
         <option name="url" value="https://github.com/qshenao/jsd2306.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/day03/IfDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/day04/Test02.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,13 +85,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="应用程序.Test01">
-    <configuration name="DoWhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.DoWhileDemo" />
+  <component name="RunManager" selected="应用程序.Addition">
+    <configuration name="Addition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.Addition" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,19 +101,6 @@
     </configuration>
     <configuration name="ForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.ForDemo" />
-      <module name="jsd2306" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Guessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.Guessing" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
@@ -148,13 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day05.ForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.ForDemo" />
+      <module name="jsd2306" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Addition" />
+        <item itemvalue="应用程序.day05.ForDemo" />
         <item itemvalue="应用程序.Test01" />
         <item itemvalue="应用程序.Test02" />
         <item itemvalue="应用程序.ForDemo" />
-        <item itemvalue="应用程序.DoWhileDemo" />
-        <item itemvalue="应用程序.Guessing" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +182,8 @@
       <workItem from="1688430116562" duration="534000" />
       <workItem from="1688430663118" duration="1183000" />
       <workItem from="1688431863642" duration="32153000" />
-      <workItem from="1688477114504" duration="2534000" />
+      <workItem from="1688477114504" duration="3467000" />
+      <workItem from="1688516846537" duration="5986000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -305,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688460705287</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1688480179913</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688480179913</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +360,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day04/Test01.java</url>
-          <line>70</line>
+          <line>68</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
