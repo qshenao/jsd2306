@@ -1,6 +1,6 @@
 package day04;
 
-public class Test01 {
+public class HomeWork041 {
     public static void main(String[] args) {
         /*Scanner sc=new Scanner(System.in);
         System.out.println("请选择功能: 1.取款  2.存款  3.查询余额  0.退卡");

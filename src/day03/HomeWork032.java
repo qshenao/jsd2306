@@ -1,6 +1,6 @@
 package day03;
 
-public class Test02 {
+public class HomeWork032 {
     public static void main(String[] args) {
         // 1运算符练习
         System.out.println(5%2);

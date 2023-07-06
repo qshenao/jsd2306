@@ -5,7 +5,7 @@ import java.util.Scanner;
 //接收用户输入的一个整数num，判断它的正负零值，正数则输出"+"，负数则输出"-"，0则输出"0"
 //2. 接收用户输入的年份year和月份month，计算该年该月的天数，并输出
 //4. 输出1900到2023年之间所有的闰年(每够10个年份，换一行
-public class Test02 {
+public class HomeWork042 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         /*

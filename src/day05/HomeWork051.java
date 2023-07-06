@@ -15,7 +15,7 @@ import java.util.Arrays;
 4. MaxOfArray求数组元素最大值
 
 5. 对数组进行升序排列，并输出排序后的结果*/
-public class Test01 {
+public class HomeWork051 {
     public static void main(String[] args) {
         /*
         Scanner sc=new Scanner(System.in);

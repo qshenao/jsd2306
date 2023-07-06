@@ -1,6 +1,6 @@
 package day02;
 
-public class test {
+public class HomeWork02 {
     public static void main(String[] args) {
         //int 数据类型（四个字节）
 
