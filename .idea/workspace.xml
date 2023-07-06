@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/HomeWork/HomeWork063.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/HomeWork064.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/HomeWork062.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/HomeWork063.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/HomeWork064.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/HomrWork061.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/Max.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/MethDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/Test001.java" afterDir="false" />
+    <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
+      <change afterPath="$PROJECT_DIR$/src/day06/MethDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/Guessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/VerificationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/yzm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/HomeWork02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/HomeWork031.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/HomeWork032.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/HomeWork041.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/HomeWork042.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/HomeWork051.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/HomeWork052.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/ArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/MaxOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/MaxOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,71 +63,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/java/jsd2306/HomeWork",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facet",
-    "project.structure.proportion": "0.107421875",
-    "project.structure.side.proportion": "0.26506025",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/jsd2306/HomeWork&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facet&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.107421875&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26506025&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\jsd2306\HomeWork" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day05" />
       <recent name="day06" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.HomeWork064">
-    <configuration name="HomeWork062" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.HomeWork062" />
+  <component name="RunManager" selected="应用程序.PrimeNumber">
+    <configuration name="Guessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.Guessing" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork063" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.HomeWork063" />
-      <module name="jsd2306" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork064" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.HomeWork064" />
-      <module name="jsd2306" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06.*" />
+          <option name="PATTERN" value="day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +125,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.Test001" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.PrimeNumber" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.*" />
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerificationCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.VerificationCode" />
+      <module name="jsd2306" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yzm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.yzm" />
+      <module name="jsd2306" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.HomeWork064" />
-        <item itemvalue="应用程序.Test001" />
+        <item itemvalue="应用程序.PrimeNumber" />
+        <item itemvalue="应用程序.yzm" />
+        <item itemvalue="应用程序.VerificationCode" />
+        <item itemvalue="应用程序.Guessing" />
         <item itemvalue="应用程序.Max" />
-        <item itemvalue="应用程序.HomeWork063" />
-        <item itemvalue="应用程序.HomeWork062" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +199,8 @@
       <workItem from="1688516846537" duration="30500000" />
       <workItem from="1688566885952" duration="13285000" />
       <workItem from="1688623182709" duration="19366000" />
-      <workItem from="1688649526030" duration="4809000" />
+      <workItem from="1688649526030" duration="5104000" />
+      <workItem from="1688691197760" duration="11064000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -375,7 +366,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688611001540</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1688655799132</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688655799132</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
+      <option name="closed" value="true" />
+      <created>1688655891955</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688655891955</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,8 +402,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
