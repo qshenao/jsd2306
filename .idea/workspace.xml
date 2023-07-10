@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
-      <change afterPath="$PROJECT_DIR$/src/day07/CalAirPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/CalAirPrice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/CalTotalAvg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/HomeWork07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/HomeWork071.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/HomeWork072.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/HomeWork073.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/HomeWork074.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork081.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork0811.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork0812.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork0813.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork0814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork0815.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork0816.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork082.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork083.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork084.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/HomeWork085.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/l.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/WhileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/WhileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/yzm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/yzm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +83,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java/jsd2306/HomeWork&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/jsd2306_teacher&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,13 +111,13 @@
       <recent name="day06" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.HomeWork074">
-    <configuration name="HomeWork071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.HomeWork071" />
+  <component name="RunManager" selected="应用程序.HomeWork0811">
+    <configuration name="HomeWork0811" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.HomeWork0811" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork072" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.HomeWork072" />
+    <configuration name="HomeWork0814" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.HomeWork0814" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork073" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.HomeWork073" />
+    <configuration name="HomeWork0815" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.HomeWork0815" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork074" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.HomeWork074" />
+    <configuration name="HomeWork0816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.HomeWork0816" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.PrimeNumber" />
+    <configuration name="HomeWork082" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.HomeWork082" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.HomeWork074" />
-        <item itemvalue="应用程序.HomeWork073" />
-        <item itemvalue="应用程序.PrimeNumber" />
-        <item itemvalue="应用程序.HomeWork072" />
-        <item itemvalue="应用程序.HomeWork071" />
+        <item itemvalue="应用程序.HomeWork0811" />
+        <item itemvalue="应用程序.HomeWork0815" />
+        <item itemvalue="应用程序.HomeWork082" />
+        <item itemvalue="应用程序.HomeWork0816" />
+        <item itemvalue="应用程序.HomeWork0814" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +214,9 @@
       <workItem from="1688623182709" duration="19366000" />
       <workItem from="1688649526030" duration="5104000" />
       <workItem from="1688691197760" duration="11064000" />
-      <workItem from="1688736120372" duration="1861000" />
+      <workItem from="1688736120372" duration="2894000" />
+      <workItem from="1688778448505" duration="25457000" />
+      <workItem from="1688816442580" duration="4646000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -390,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688655891955</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
+      <option name="closed" value="true" />
+      <created>1688739979410</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1688739979410</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
