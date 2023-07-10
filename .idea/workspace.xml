@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
-      <change afterPath="$PROJECT_DIR$/src/OoDay01/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay01/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay01/ConsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay01/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/Carfirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/StudentFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/TestDemoFirst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/l.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/HomeWork0816.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/HomeWork0816.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <recent name="day06" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.CarTest">
+  <component name="RunManager" selected="应用程序.HomeWork0816">
     <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OoDay01.CarTest" />
       <module name="jsd2306" />
@@ -131,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OoDay01.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OoDay01.Student" />
+    <configuration name="HomeWork0816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.HomeWork0816" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OoDay01.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.Student" />
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.TestDemo" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OoDay01.StudentTest" />
+    <configuration name="TestDemoFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.TestDemoFirst" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OoDay01.*" />
+          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.HomeWork0816" />
+        <item itemvalue="应用程序.TestDemoFirst" />
+        <item itemvalue="应用程序.TestDemo" />
         <item itemvalue="应用程序.CarTest" />
         <item itemvalue="应用程序.ConsDemo" />
-        <item itemvalue="应用程序.StudentTest" />
-        <item itemvalue="应用程序.OoDay01.Student" />
-        <item itemvalue="应用程序.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,7 @@
       <workItem from="1688691197760" duration="11064000" />
       <workItem from="1688736120372" duration="2894000" />
       <workItem from="1688778448505" duration="25457000" />
-      <workItem from="1688816442580" duration="23345000" />
+      <workItem from="1688816442580" duration="30387000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -407,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688951032730</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
+      <option name="closed" value="true" />
+      <created>1688979934256</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688979934256</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
