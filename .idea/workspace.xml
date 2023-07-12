@@ -5,14 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
-      <change afterPath="$PROJECT_DIR$/src/homework/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Carfirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/StudentFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/TestDemoFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/AnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Chick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doday021/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/AnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Chick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/ExtendTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/FinalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/OverrideDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/SuperDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay02/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/HomeWork0816.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/HomeWork0816.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +99,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facet&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.107421875&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.26506025&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -104,13 +121,13 @@
       <recent name="day06" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.HomeWork0816">
-    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OoDay01.CarTest" />
+  <component name="RunManager" selected="应用程序.Doday021.AnimalTest">
+    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OoDay02.AnimalTest" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OoDay01.*" />
+          <option name="PATTERN" value="OoDay02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OoDay01.ConsDemo" />
+    <configuration name="Doday021.AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Doday021.AnimalTest" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OoDay01.*" />
+          <option name="PATTERN" value="Doday021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork0816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.HomeWork0816" />
+    <configuration name="ExtendTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OoDay02.ExtendTest" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="OoDay02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.TestDemo" />
+    <configuration name="OverrideDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OoDay02.OverrideDemo" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="OoDay02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemoFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.TestDemoFirst" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Doday021.Test" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="Doday021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.HomeWork0816" />
-        <item itemvalue="应用程序.TestDemoFirst" />
-        <item itemvalue="应用程序.TestDemo" />
-        <item itemvalue="应用程序.CarTest" />
-        <item itemvalue="应用程序.ConsDemo" />
+        <item itemvalue="应用程序.Doday021.AnimalTest" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.AnimalTest" />
+        <item itemvalue="应用程序.OverrideDemo" />
+        <item itemvalue="应用程序.ExtendTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +227,9 @@
       <workItem from="1688736120372" duration="2894000" />
       <workItem from="1688778448505" duration="25457000" />
       <workItem from="1688816442580" duration="30387000" />
+      <workItem from="1688993920924" duration="189000" />
+      <workItem from="1689036445076" duration="22467000" />
+      <workItem from="1689072482978" duration="4903000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -415,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688979934256</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
+      <option name="closed" value="true" />
+      <created>1688994108863</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688994108863</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
