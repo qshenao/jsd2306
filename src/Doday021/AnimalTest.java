@@ -10,5 +10,6 @@ public class AnimalTest {
         Chick chick=new Chick("小黄",2,"黄");
         chick.layEggs();
         chick.eat();
+
     }
 }

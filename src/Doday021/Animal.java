@@ -1,6 +1,6 @@
 package Doday021;
 
-public class Animal {
+public  class Animal {
     String name;
     int age;
     String color;
@@ -18,4 +18,5 @@ public class Animal {
     void  eat(){
         System.out.println(color+"色的"+age+"岁的"+name+"正在喝水...");
     }
+
 }

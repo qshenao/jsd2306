@@ -12,4 +12,5 @@ public class Fish extends Animal{
     void eat() {
         System.out.println(color+"色的"+age+"岁的小鸡"+name+"正在吃小鱼...");
     }
+
 }

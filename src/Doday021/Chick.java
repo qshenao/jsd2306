@@ -1,6 +1,7 @@
 package Doday021;
 
 public class Chick extends Animal {
+
     Chick() {
 
     }
