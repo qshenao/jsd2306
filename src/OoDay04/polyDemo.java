@@ -36,17 +36,19 @@ public class polyDemo {
                 Dog dog1=(Dog) animals[i];
                 dog1.eat();
                 dog1.lookHome();
-                dog1.swim();
             }
             if(animals[i] instanceof Fish){
                 Fish fish1=(Fish) animals[i];
                 fish1.eat();
-                fish1.swim();
             }
             if(animals[i] instanceof Chick){
                 Chick chick1=(Chick) animals[i];
                 chick1.eat();
                 chick1.layEggs();
+            }
+            if (animals[i]instanceof Swim){
+                Swim swim=(Swim) animals[i];
+                swim.swim();
             }
         }
 

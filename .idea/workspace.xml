@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
-      <change afterPath="$PROJECT_DIR$/src/DaNei/DirectorofTeachingandResearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DaNei/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DaNei/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Chick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/RefArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Swim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/SwimTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/DaNei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/RefArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay04/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay04/Chick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay04/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay04/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay04/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay04/Swim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay04/polyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork01/Test/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork01/Test/Chick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Chick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork01/Test/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork01/Test/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork01/Test/RefArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/RefArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork01/Test/Swim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Swim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork01/Test/SwimTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/SwimTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OoDay04/polyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OoDay04/polyDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +224,7 @@
       <workItem from="1689165434265" duration="72000" />
       <workItem from="1689165520104" duration="726000" />
       <workItem from="1689210214675" duration="3008000" />
-      <workItem from="1689213262090" duration="8765000" />
+      <workItem from="1689213262090" duration="9287000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -466,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689145620862</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
+      <option name="closed" value="true" />
+      <created>1689228494254</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1689228494254</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
