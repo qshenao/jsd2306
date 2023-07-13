@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dded3cb-cc7e-4ed6-84c4-f6ed21c63391" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/Chick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/InterFaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/Swim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OoDay03/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DaNei/DirectorofTeachingandResearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DaNei/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DaNei/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Chick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/RefArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork01/Test/SwimTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay03/DaNei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay03/RefArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay04/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay04/Chick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay04/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay04/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay04/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay04/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OoDay04/polyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doday021/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doday021/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doday021/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doday021/AnimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doday021/Chick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doday021/Chick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doday021/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doday021/Fish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +89,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/java/jsd2306/src/OoDay03",
+    "last_opened_file_path": "D:/java/jsd2306_teacher",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,6 +109,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\jsd2306\src\OoDay04" />
       <recent name="D:\java\jsd2306\src\OoDay03" />
       <recent name="D:\java\jsd2306\src" />
       <recent name="D:\java\jsd2306\HomeWork" />
@@ -113,35 +121,9 @@
       <recent name="day06" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.OoDay03.AnimalTest">
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OoDay02.AnimalTest" />
-      <module name="jsd2306" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OoDay02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Doday021.AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Doday021.AnimalTest" />
-      <module name="jsd2306" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Doday021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OoDay03.AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OoDay03.AnimalTest" />
+  <component name="RunManager" selected="应用程序.polyDemo">
+    <configuration name="RefArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OoDay03.RefArrayDemo" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
@@ -153,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OoDay02.OverrideDemo" />
+    <configuration name="SwimTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.SwimTest" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OoDay02.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +148,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Doday021.Test" />
+    <configuration name="Test1.RefArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1.RefArrayDemo" />
       <module name="jsd2306" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Doday021.*" />
+          <option name="PATTERN" value="Test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.RefArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.RefArrayDemo" />
+      <module name="jsd2306" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="polyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OoDay04.polyDemo" />
+      <module name="jsd2306" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OoDay04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.OoDay03.AnimalTest" />
-        <item itemvalue="应用程序.Doday021.AnimalTest" />
-        <item itemvalue="应用程序.Test" />
-        <item itemvalue="应用程序.AnimalTest" />
-        <item itemvalue="应用程序.OverrideDemo" />
+        <item itemvalue="应用程序.polyDemo" />
+        <item itemvalue="应用程序.Test1.RefArrayDemo" />
+        <item itemvalue="应用程序.SwimTest" />
+        <item itemvalue="应用程序.Test.RefArrayDemo" />
+        <item itemvalue="应用程序.RefArrayDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +231,12 @@
       <workItem from="1689036445076" duration="22467000" />
       <workItem from="1689072482978" duration="4903000" />
       <workItem from="1689121544068" duration="1429000" />
-      <workItem from="1689123938556" duration="13871000" />
+      <workItem from="1689123938556" duration="19301000" />
+      <workItem from="1689151851275" duration="8343000" />
+      <workItem from="1689165434265" duration="72000" />
+      <workItem from="1689165520104" duration="726000" />
+      <workItem from="1689210214675" duration="3008000" />
+      <workItem from="1689213262090" duration="8765000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1688364675422</created>
@@ -445,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689121628773</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/day06/ArrayDemo.java&#10;#&#9;src/day06/MaxOfArray.java">
+      <option name="closed" value="true" />
+      <created>1689145620862</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1689145620862</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,6 +514,36 @@
           <line>68</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OoDay03/Animal.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Fish.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test1/Animal.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OoDay04/polyDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OoDay04/polyDemo.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test1/Dog.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/OoDay03/InterFaceDemo.java</url>
           <line>45</line>
@@ -501,6 +552,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/Dog.java</url>
+          <line>17</line>
+          <properties class="Test.Dog" method="swim">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test1/Chick.java</url>
+          <line>11</line>
+          <properties class="Test1.Chick" method="layEggs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
